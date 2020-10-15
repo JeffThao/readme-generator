@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   ${data.contributing}
 
   ## GitHub
-  You can check out more of my work at [${data.github}]([https://www.github.com/${data.github}).
+  You can check out more of my work at [${data.github}](https://www.github.com/${data.github}).
 `;
 }
 
