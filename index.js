@@ -26,6 +26,11 @@ inquirer
     },
     {
         type: "input",
+        name: "repo",
+        message: "What is the repo's url?"
+    },
+    {
+        type: "input",
         name: "description",
         message: "Please write a short description of your project."
     },
@@ -39,7 +44,7 @@ inquirer
         type: "list",
         name: "license",
         message: "What kind of license should your project have?",
-        choices: ["MIT", "WTFPL", "MPL-2.0", "APACHE 2.0", "None"]
+        choices: ["MIT", "ISC", "MPL-2.0", "APACHE 2.0", "None"]
     },
     {
         type: "input",
@@ -49,13 +54,8 @@ inquirer
     },
     {
         type: "input",
-        name: "bug",
-        message: "How do users report a problem?",
-    },
-    {
-        type: "input",
         name: "usage",
-        message: "What does the user need to know about using the repo?",
+        message: "How does the user use the app?",
     },
     {
         type: "input",
@@ -64,7 +64,6 @@ inquirer
     },
   ])
   .then(answers => {
-    // Use user feedback for... whatever!!
     console.log(answers);
     return generateMarkdown(answers);
   })
@@ -75,10 +74,6 @@ inquirer
       console.log("Generating README.md file.");
   })
   .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
+      console.log(error);
   });
 
