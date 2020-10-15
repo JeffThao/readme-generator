@@ -1,0 +1,26 @@
+{
+  "name": "develop",
+  "version": "1.0.0",
+  "description": "This will help generate a good README file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffThao/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "Jeff Thao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeffThao/readme-generator/issues"
+  },
+  "homepage": "https://github.com/JeffThao/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
