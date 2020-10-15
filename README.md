@@ -1,5 +1,6 @@
 # README Generator
-
+Here is the link for a better view of the readme.
+https://jeffthao.github.io/readme-generator/
   ## Description
   This will help you write a nice and easy readme.
 
