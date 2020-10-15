@@ -17,7 +17,7 @@ inquirer
     }, {
         type: "input",
         name: "email",
-        message: "What is your email address?"
+        message: "What is your email address to report issues or contact you?"
     },
     {
         type: "input",
@@ -82,11 +82,3 @@ inquirer
     }
   });
 
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();

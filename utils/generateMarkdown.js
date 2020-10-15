@@ -2,22 +2,32 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## What does it do?
+  ## Description
   ${data.description}
 
-  ### Installation
+  * [Installation](#installation)
+  * [License](#license)
+  * [Testing](#testing)
+  * [Report a problem](#bug)
+  * [Usage](#usage)
+  * [How to contribute](#contributing)
+  
+  ## Installation
   ${data.install}
 
-  ### Testing
+  ## License
+  ${data.license}
+
+  ## Testing
   ${data.test}
 
-  ### Report a problem
+  ## Report a problem
   ${data.bug}
 
-  ### How to use
+  ## How to use
   ${data.usage}
 
-  ### How to contribute
+  ## How to contribute
   ${data.contributing}
 
 `;
