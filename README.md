@@ -1,6 +1,5 @@
 # README Generator
-Here is the link for a better view of the readme.
-https://jeffthao.github.io/readme-generator/
+Please note that you will have to make a copy of this and then run the actions in the command line.
   ## Description
   This will help you write a nice and easy readme.
 
