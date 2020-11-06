@@ -1,5 +1,6 @@
 # README Generator
 Please note that you will have to make a copy of this and then run the actions in the command line.
+You can click on the link to
   ## Description
   This will help you write a nice and easy readme for your github repos.
 
@@ -29,7 +30,10 @@ Please note that you will have to make a copy of this and then run the actions i
 
   Note, {yourFileName.js} is the name of your file.
   
-  <iframe src="https://drive.google.com/file/d/1saFloS2K14s9HSuQKUtHA_1LAM0VEgCb/preview" width="640" height="480"></iframe>
+ <video width="320" height="240" controls>
+   <source src="./video/readme-gen.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+ </video>
 
   ## How to contribute
   First, you should fork a copy and clone it onto your machine. Then all commits and pushes should be going to your forked verson. After that, all submits should go a pull request so your changes can be reviewed.
