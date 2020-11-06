@@ -1,6 +1,7 @@
 # README Generator
 Please note that you will have to make a copy of this and then run the actions in the command line.
-You can click on the link to
+You can click on the link to see the video of how to use this application.
+https://jeffthao.github.io/readme-generator/
   ## Description
   This will help you write a nice and easy readme for your github repos.
 
