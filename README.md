@@ -31,8 +31,6 @@ Please note that you will have to make a copy of this and then run the actions i
   
   <iframe src="https://drive.google.com/file/d/1saFloS2K14s9HSuQKUtHA_1LAM0VEgCb/preview" width="640" height="480"></iframe>
 
-  <iframe src="https://drive.google.com/file/d/1saFloS2K14s9HSuQKUtHA_1LAM0VEgCb/preview" width="640" height="480"></iframe>
-
   ## How to contribute
   First, you should fork a copy and clone it onto your machine. Then all commits and pushes should be going to your forked verson. After that, all submits should go a pull request so your changes can be reviewed.
 
